@@ -66,6 +66,5 @@ Makespan - 31</br>
 Speedup - 0.193 </br>
 Efficiency - 0.048 </br>
 Throughput - 0.322 </br>
-
-Best schedule: [0 1 2 0 0 1 3 3 1 3]
+Best schedule: [0 1 2 0 0 1 3 3 1 3] </br>
 ![image](https://github.com/user-attachments/assets/bc9ba887-9e85-4507-b546-dca8f16b0725)
