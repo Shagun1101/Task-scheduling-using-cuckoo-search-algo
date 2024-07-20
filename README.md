@@ -45,11 +45,25 @@ iterates over a defined number of generations to find the optimal task schedule.
 • Throughput: The number of tasks divided by the makespan.</br>
 
 ### Results
-The ECS algorithm identifies the best schedule and its corresponding makespan.
+The ECS algorithm identifies the best schedule and its corresponding makespan. </br>
 
-Max-Generation = 100
+Max-Generation = 100 </br>
 pa = 0.25 Probability of abandoning worst nests </br>
-NTS  NVM  Makespan  Speedup  Efficiency  Throughput </br>
-10    3     39      0.911     0.303        0.294 </br>
+NTS - 10 </br>
+NVM - 3 </br>
+Makespan - 39</br>
+Speedup - 0.911 </br>
+Efficiency - 0.303 </br>
+Throughput - 0.294 </br>
 
 Best schedule: [0 0 2 2 0 1 1 1 2 2]
+
+![image](https://github.com/user-attachments/assets/a674ca81-9319-4e77-ba4c-b47e83c58856)
+
+NTS - 10 </br>
+NVM - 4 </br>
+Makespan - 31</br>
+Speedup - 0.193 </br>
+Efficiency - 0.048 </br>
+Throughput - 0.322 </br>
+![image](https://github.com/user-attachments/assets/bc9ba887-9e85-4507-b546-dca8f16b0725)
