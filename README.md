@@ -1,4 +1,4 @@
-# task-scheduling-using-cuckoo-search-algorithm
+# Task-scheduling-using-cuckoo-search-algorithm
 The Cuckoo Search algorithm is a nature-inspired optimization algorithm based on the brood parasitic
 behavior of certain cuckoo species. It uses Lévy flights to explore the search space and a fraction
 probability to abandon worse solutions, ensuring a good balance between exploration and exploitation. </br>
@@ -18,10 +18,10 @@ efficiently utilizing the available resources.
 
 # Implementation details
 ### Constants and Parameters
-• NTS(Number of tasks)
-• NVM(Number of virtual machines)
-• Max-Generation(Maximum Generations)
-• pa(Probability of abandoning Worst Nests)
+• NTS(Number of tasks) </br>
+• NVM(Number of virtual machines)</br>
+• Max-Generation(Maximum Generations)</br>
+• pa(Probability of abandoning Worst Nests)</br>
 
 ### Task Execution Times
 The task execution times on each VM are represented as a matrix.
@@ -40,16 +40,16 @@ The ECS function initializes nests, performs Lévy flights, evaluates fitness, a
 iterates over a defined number of generations to find the optimal task schedule.
 
 ### Performance Metrics
-• Speedup: The ratio of the minimum execution time to the makespan.
-• Efficiency: Speedup divided by the number of VMs.
-• Throughput: The number of tasks divided by the makespan.
+• Speedup: The ratio of the minimum execution time to the makespan. </br>
+• Efficiency: Speedup divided by the number of VMs.</br>
+• Throughput: The number of tasks divided by the makespan.</br>
 
 ### Results
 The ECS algorithm identifies the best schedule and its corresponding makespan.
 
 Max-Generation = 100
 pa = 0.25 Probability of abandoning worst nests </br>
-NTS  NVM  Makespan  Speedup  Efficiency  Throughput 
-10    3     39      0.911     0.303        0.294
+NTS  NVM  Makespan  Speedup  Efficiency  Throughput </br>
+10    3     39      0.911     0.303        0.294 </br>
 
 Best schedule: [0 0 2 2 0 1 1 1 2 2]
